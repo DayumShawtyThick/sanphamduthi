@@ -1,0 +1,522 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.body1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image:  linear-gradient(to bottom, rgba(255, 255, 255, 0.52), rgba(216, 216, 216, 0.49)), url(https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-139.jpg);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cha{
+   width: 100vw;
+   height: 1200px;
+   /* background-color: crimson; */
+   justify-content: center;
+}
+.header{
+    width: 100vw;
+    height: 75px;
+    display: flex;
+    border-bottom: solid 1px gray;
+}
+.main-left{
+
+    width: 60%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+.main-right{
+    width: 40%;
+    height: 75px;
+    display: flex;
+}
+.logo{
+    width: 30%;
+    height: 60px;
+}
+.i1{
+    width: 50%;
+    height: 100%;
+}
+.space{
+    width: 10%;
+    height: 60px;
+}
+.menu{
+    justify-content: center;
+    width: 15%;
+    height: 50px;
+    border-radius: 10px;
+    border: solid black 2px;
+    margin-left: -40px;
+    display: flex;
+
+}
+div.menu a{
+    justify-content: center;
+    padding-left: 35px;
+    padding-top: 15px;
+    color: black;
+    font-weight: bold;
+    margin-left: -30px;
+}
+div.menu:hover{
+    background-color: rgb(0, 123, 255);
+    text-decoration: underline black;
+    -webkit-transition: background .55s ease;
+  -moz-transition: background .55s ease;
+  -ms-transition: background .55s ease;
+  -o-transition: background .55s ease;
+  transition: background .55s ease;
+}
+.christmas-items{
+    justify-content: center;
+    width: 15%;
+    height: 50px;
+    border-radius: 10px;
+    border: solid black 2px;
+    margin-left: 40px;
+    display: flex;
+    background-color: rgb(0, 51, 255);
+}
+div.christmas-items a{
+    justify-content: center;
+    padding-left: 35px;
+    padding-top: 15px;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    margin-left: -30px;
+}
+div.christmas-items:hover{
+    background-color: rgb(54, 62, 184);
+    text-decoration: underline black;
+    -webkit-transition: background .55s ease;
+  -moz-transition: background .55s ease;
+  -ms-transition: background .55s ease;
+  -o-transition: background .55s ease;
+  transition: background .55s ease;
+}
+.game{
+    justify-content: center;
+    width: 15%;
+    height: 50px;
+    border-radius: 10px;
+    border: solid black 2px;
+    margin-left: 40px;
+    display: flex;
+}
+div.game a{
+    justify-content: center;
+    padding-left: 35px;
+    padding-top: 15px;
+    color: black;
+    font-weight: bold;
+    margin-left: -30px;
+}
+div.game:hover{
+    background-color:rgb(0, 183, 255);
+    text-decoration: underline black;
+    -webkit-transition: background .55s ease;
+  -moz-transition: background .55s ease;
+  -ms-transition: background .55s ease;
+  -o-transition: background .55s ease;
+  transition: background .55s ease;
+}
+.search-box{
+   margin-top: 12px;
+}
+.container-1{
+    width: 250px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+  }
+.container-1 input#search{
+    width: 300px;
+    height: 50px;
+    background: #2b303b;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: background .55s ease;
+    -moz-transition: background .55s ease;
+    -ms-transition: background .55s ease;
+    -o-transition: background .55s ease;
+    transition: background .55s ease;
+  }
+  .container-1 .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #4f5b66;
+  }
+  .container-1 input#search::-webkit-input-placeholder {
+    color: #65737e;
+ }
+  
+ .container-1 input#search:-moz-placeholder { /* Firefox 18- */
+    color: #65737e;  
+ }
+  
+ .container-1 input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: #65737e;  
+ }
+  
+ .container-1 input#search:-ms-input-placeholder {  
+    color: #65737e;  
+ }
+ .container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
+    outline:none;
+    background: gainsboro;
+  }
+  .container-1 input#search:focus, .container-1 input#search:active{
+    outline:none; 
+}
+ 
+.container-1:hover .icon{
+  margin-top: 16px;
+  color: #93a2ad;
+ 
+  -webkit-transform:scale(1.5); /* Safari and Chrome */
+  -moz-transform:scale(1.5); /* Firefox */
+  -ms-transform:scale(1.5); /* IE 9 */
+  -o-transform:scale(1.5); /* Opera */
+   transform:scale(1.5);
+  }
+.user{
+    width: 20px;
+    margin-left: 70px;
+    align-items: center;
+    display: flex;
+    font-size: x-large;
+}
+.user:hover{
+    transform: scale(1.5);
+    color: rgb(0, 165, 61);
+    transition: color .65s ease;
+}
+.heart{
+    width: 20px;
+    margin-left: 40px;
+    align-items: center;
+    display: flex;
+    font-size: x-large;
+}
+.heart:hover{
+    transform: scale(1.5);
+    color: rgba(0, 250, 50, 0.742);
+    transition: color .65s ease;
+}
+.mar{
+    width: 20px;
+    margin-left: 40px;
+    align-items: center;
+    display: flex;
+    font-size: x-large;
+}
+.mar:hover{
+    transform: scale(1.5);
+    color: rgba(2, 128, 0, 0.762);
+    transition: color .65s ease;
+}
+.container2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+* {box-sizing:border-box}
+/* thiết lập style cho slideshow container */
+ .slideshow-container {
+   max-width: 95%;
+   max-height: 100%;
+   position: relative;
+   margin: auto;
+   margin-top: 20px;
+ }
+/* ẩn hình ảnh cho phần tử slideshow */
+ .mySlides {
+   display: none;
+ }
+/* thiết kế nút mũi tên*/
+ .prev, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   margin-top: -22px;
+   padding: 16px;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+ }
+/* thiết kế nút mũi tên next nằm phía bên phải */
+ .next {
+   right: 0;
+   border-radius: 3px 0 0 3px;
+ }
+/* hiệu ứng thay đổi background khi hover vào nút mũi tên*/
+ .prev:hover, .next:hover {
+   background-color: rgba(0,0,0,0.8);
+ }
+/* Thiết lập style cho nội dung của mỗi phần tử slideshow */
+ .text {
+   color: #f2f2f2;
+   font-size: 15px;
+   padding: 8px 12px;
+   position: absolute;
+   bottom: 8px;
+   width: 100%;
+   text-align: center;
+ }
+/* Thiết lập style cho số hiển thị của phần tử */
+ .numbertext {
+   color: #f2f2f2;
+   font-size: 12px;
+   padding: 8px 12px;
+   position: absolute;
+   top: 0;
+ }
+/* thiết lập style  nút tròn điều khiển*/
+ .dot {
+   cursor: pointer;
+   height: 15px;
+   width: 15px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+ }
+.active, .dot:hover {
+   background-color: #717171;
+ }
+/* tạo hiệu ứng chuyển động fade */
+ .fade {
+   -webkit-animation-name: fade;
+   -webkit-animation-duration: 10s;
+   animation-name: fade;
+   animation-duration: 2s;
+ }
+@-webkit-keyframes fade {
+   from {opacity: .4}
+   to {opacity: 1}
+ }
+@keyframes fade {
+   from {opacity: .4}
+   to {opacity: 1}
+ }
+.imgmain{
+  width: 90%;
+  height: 300px;
+ }
+.selector{
+    width: 80%;
+    display: flex;
+    height: 100px;
+    margin-left: 120px;
+    height: 75px;
+ }
+ .container2{
+  height: 500px;
+  width: 95%;
+  margin-top: 20px;
+  margin-left: 28px;
+  display: block;
+ }
+.clothes{
+    width: 33%;
+    height: 100%;
+    border: solid 1px black;
+    margin-right: 4px;
+    border-radius: 10px;
+    /* margin-left: 20px; */
+}
+.hotsales{
+    width: 34%;
+    height: 100%;
+    border: solid 1px black;
+    margin-left: 4px;
+    border-radius: 10px;
+}
+.hotsales a{
+  margin-right: 140px;
+}
+.clothes a{
+  margin-right: 140px;
+}
+.toys{
+    width: 33%;
+    height: 100%;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+.toys a{
+    margin-right: 140px;
+    
+}
+.hotsales:hover{
+    background-color: rgb(255, 255, 255);
+    -webkit-transition: background .55s ease;
+    -moz-transition: background .55s ease;
+    -ms-transition: background .55s ease;
+    -o-transition: background .55s ease;
+    transition: background 2s ease;
+    box-shadow: 0 0 30px rgb(0, 0, 0) ;
+}
+.toys:hover{
+    background-color:rgb(255, 255, 255);
+    -webkit-transition: background .55s ease;
+    -moz-transition: background .55s ease;
+    -ms-transition: background .55s ease;
+    -o-transition: background .55s ease;
+    transition: background 2s ease;
+    box-shadow: 0 0 30px rgb(0, 0, 0) ;
+}
+.clothes:hover{
+    background-color: rgb(255, 255, 255);
+    -webkit-transition: background .55s ease;
+    -moz-transition: background .55s ease;
+    -ms-transition: background .55s ease;
+    -o-transition: background .55s ease;
+    transition: background 2s ease;
+    box-shadow: 0 0 30px rgb(0, 0, 0) ;
+}
+.selector a{
+    font-size: xx-large;
+   padding-left: 100px;
+   padding-top: -100px;
+    justify-content: center;
+    color:rgb(54, 47, 47);
+}
+.selector {
+  gap: 50px;
+}
+.headersales{
+    display: flex;
+    margin-top: 20px;
+    height: 100px;
+}
+.line{
+    background-color: grey;
+    width: 35%;
+    height: 2px;
+    margin-top: 50px;
+    
+}
+.line2{
+    background-color: grey;
+    width: 35%;
+    height: 2px;
+    margin-top: 50px;
+}
+.headercontent{
+     width: 30%;
+     height: 100%;
+}
+.headercontent p{
+    font-size: xx-large;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-style: oblique;
+    font-weight: bolder;
+   
+}
+.clothess{
+  width: 100%;
+  height: 460px;
+  display: flex;
+  gap: 60px;
+}
+.clothes1{
+  width: 23%;
+  height: 100%;
+}
+.clothes2{
+  width: 23%;
+  height: 100%;
+
+}
+.clothes3{
+  width: 23%;
+  height: 100%;
+}
+.clothes4{
+  width: 23%;
+  height: 100%;
+}
+.img{
+  width: 100%;
+  height: 70%;
+}
+.cupfakeprice{
+  text-decoration: line-through;
+  color: #93a2ad;
+}
+.cupheader{
+  font-weight: 1000;
+  font-size: x-large;
+}
+.cupprice{
+  font-weight: 1000;
+}
+.clothess p{
+  margin-left: 10px;
+}
+.clothess div{
+  box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+  0 2px 2px rgba(0,0,0,0.12), 
+  0 4px 4px rgba(0,0,0,0.12), 
+  0 8px 8px rgba(0,0,0,0.12),
+  0 16px 16px rgba(0,0,0,0.12);
+}
+.clothes1:hover{
+  transform: scale(1.1);
+  -webkit-animation-name: fade;
+   -webkit-animation-duration: 2s;
+   animation-name: fade;
+   animation-duration: 1s;
+   transition-duration: 1s;
+   box-shadow: 0 0 50px rgb(252, 252, 252) ;
+}
+.clothes2:hover{
+  transform: scale(1.1);
+  -webkit-animation-name: fade;
+   -webkit-animation-duration: 2s;
+   animation-name: fade;
+   animation-duration: 1s;
+   transition-duration: 1s;
+   box-shadow: 0 0 50px rgb(252, 252, 252) ;
+}
+.clothes3:hover{
+  transform: scale(1.1);
+  -webkit-animation-name: fade;
+   -webkit-animation-duration: 2s;
+   animation-name: fade;
+   animation-duration: 1s;
+   transition-duration: 1s;
+   box-shadow: 0 0 50px rgb(252, 252, 252) ;
+}
+.clothes4:hover{
+  transform: scale(1.1);
+  -webkit-animation-name: fade;
+   -webkit-animation-duration: 2s;
+   animation-name: fade;
+   animation-duration: 1s;
+   transition-duration: 1s;
+   box-shadow: 0 0 50px rgb(252, 252, 252) ;
+}

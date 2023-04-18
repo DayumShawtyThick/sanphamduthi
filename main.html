@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Countdown </title>
+    <link rel="stylesheet" href="./main.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body class="body1">
+    <div class="cha">
+    <div class="header"> 
+        <div class="main-left">
+            <div class="space"></div>
+            <div class="logo">
+                <img src="./save-environment-speech.png" alt="" class="i1">
+            </div>
+            <div class="menu"  > <a href="./main.html"> MENU </a> </div> 
+            <div class="christmas-items" > <a href="./clothes.html"> ITEMS </a></div>
+            <div class="game" > <a href="./game.html">GAME</a>
+            </div>
+        </div>
+
+        <div class="main-right">
+
+            <div class="search-box">
+                <div class="box">
+                    <div class="container-1">
+                        <span class="icon"><i class="fa fa-search"></i></span>
+                        <input type="search" id="search" placeholder="Search..." />
+                    </div>
+                  </div>
+            </div>
+            <a class="user" href="./user.html">
+                <i class="fa-solid fa-user"></i>
+            </a>
+            <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="mar">
+                <i class="fa-solid fa-shop"></i>
+            </div>
+        </div>
+    </div>
+   <div class="slide">
+    <div class="slideshow-container animate__animated animate__rotateInUpLeft">
+        <!-- Kết hợp hình ảnh và nội dung cho mội phần tử trong slideshow-->
+         <div class="mySlides fade">
+           <div class="numbertext">1 / 3</div>
+           <img src="./slideanh1.jpg" style="width:100%" class="imgmain">
+         </div>
+        <div class="mySlides fade">
+           <div class="numbertext">2 / 3</div>
+           <img src="./slideanh2.jpg" style="width:100%" class="imgmain">
+         </div>
+        <div class="mySlides fade">
+           <div class="numbertext">3 / 3</div>
+           <img src="./slideanh3.jpg" style="width:100%" class="imgmain">
+         </div>
+        <!-- Nút điều khiển mũi tên-->
+         <a class="prev" onclick="plusSlides(-1)">❮</a>
+         <a class="next" onclick="plusSlides(1)">❯</a>
+       </div>
+       <br>
+      <!-- Nút tròn điều khiển slideshow-->
+       <div style="text-align:center">
+         <span class="dot" onclick="currentSlide(1)"></span>
+         <span class="dot" onclick="currentSlide(2)"></span>
+         <span class="dot" onclick="currentSlide(3)"></span>
+       </div>
+   </div>
+   <div class="mathang">
+    
+
+        <div class="mathangheader animate__animated animate__fadeInRightBig">
+            <p class="p1"> SALES </p> <p class="p2"> IN: </p>
+    <div class="mathangheader1">
+    <div class="countdown  animate__animated animate__fadeInBottomRight">
+        <div id="day"></div>
+        <div id="hour"></div>
+        <div id="minute"></div>
+        <div id="second"></div>
+        <a style="text-decoration:underline; font-weight: 1000; color:darkcyan; margin-left: 350px; font-size: larger; margin-top: 30px;" href="./clothes.html"> Watch more > </a>
+    </div>
+    </div>
+    </div>
+  
+    <div class="mathangitem">
+        <a class="prev1">❮</a>
+        <a class="next1">❯</a>
+        <div class="cup  animate__animated animate__bounceInDown"> <img src="./istockphoto-1350260733-612x612.jpg" alt=""  class="img2">
+           <p class="cupheader"> Save Bulb</p>
+           <p class="cupfakeprice"> 500.000$ </p>
+           <p class="cupprice"> 20$ </p>
+           <hr style="height: 10px; width: 80%; border: solid 2px; border-radius: 7px; background-color: green; margin-top: -30px; margin-left: 5px;" >
+           <h4 style="font-weight: 900; margin-top: -35px; margin-left: 5px;"> Sold: 100/124 </h4>
+        </div>
+        <div class="socks  animate__animated animate__bounceInDown "> <img src="./socks.webp" alt=""  class="img2">
+            <p class="cupheader"> Save TV </p>
+            <p class="cupfakeprice"> 300.000$ </p>
+            <p class="cupprice"> 50$ </p>
+            <hr style="height: 10px; width: 80%; border: solid 2px; border-radius: 7px; background-color: greenyellow ; margin-top: -30px; margin-left: 5px;" >
+            <h4 style="font-weight: 900; margin-top: -35px; margin-left: 5px;"> Sold: 18/124 </h4></div>
+        <div class="box  animate__animated animate__bounceInDown"> <img src="./box.webp" alt="" class="img2">
+            <p class="cupheader"> Save AC </p>
+            <p class="cupfakeprice"> 2.000$ </p>
+            <p class="cupprice"> 300$ </p>
+            <hr style="height: 10px; width: 80%; border: solid 2px; border-radius: 7px; background-color:  rgb(0, 255, 166); margin-top: -30px; margin-left: 5px;" >
+            <h4 style="font-weight: 900; margin-top: -35px; margin-left: 5px;"> Sold: 10/150 </h4></div>
+        <div class="candy  animate__animated animate__bounceInDown"> <img src="./candy.jpg" alt="" class="img2">
+            <p class="cupheader"> Save Phone </p>
+            <p class="cupfakeprice"> 600.000$ </p>
+            <p class="cupprice"> 90$ </p>
+            <hr style="height: 10px; width: 80%; border: solid 2px; border-radius: 7px; background-color:  rgb(0, 66, 0); margin-top: -30px; margin-left: 5px;" >
+            <h4 style="font-weight: 900; margin-top: -35px; margin-left: 5px;"> Sold: 300/1000 </h4></div>
+    </div>
+</div>  
+<div class="imgsaletop">
+<div class="imgsale"> <div class="imgsalebutton"> <a class="imgsalebuttonp" href="./water.html" style="font-size: 17px; margin-left: 12px; text-decoration: none;"> Save Water </a> </div></div>
+ <div class="imgsale2">       <div class="imgsalebutton2"> <a class="imgsalebuttonp1" href="./plants.html" style=" text-decoration: none; margin-left: 30px;"> Plants </a> </div> </div>
+   
+</div>
+<div class="imgsale3">   <div class="imgsalebutton2"> <a class="imgsalebuttonp2" href="./game.html" style="text-decoration: none;"> Games </a> </div></div>
+   </div>
+  </div>
+  <div class="footer">
+    <div class="s1">
+        <p class="inf">INFORMATION</p> <br>
+        <label> Tran Duc Hoang & Dao Tran Hoang Bach </label> <br>
+        <label> tranduchoang200309@gmail.com </label> <br>
+        <label> THCS Thanh Cong </label> <br>
+        <h3></h3>
+    </div>
+    <div class="s2">
+        <p class="inf"> CONTACT </p> <br>
+        <label> 0346200309 </label> <br>
+        <label> Vietnam </label> <br>
+        <label> THCS Thanh Cong </label> <br>
+    </div>
+    <div class="s3">
+        <p class="inf"> CONTENT </p> <br>
+        <label> Device </label> <br>
+        <label> Enviromental </label> <br>
+        <label> Online Shopping </label> <br>
+        <label> Earth Day </label> <br>
+    </div>
+    <div class="s4">
+        <img src="https://whitehat.vn/attachments/ios-jpg.9410/" alt="" style="width: 150px; height: 100px;">
+        <img src="https://cdn.tgdd.vn/Files/2021/10/26/1393737/cach-thay-doi-vung-khu-vuc-quoc-gia-tren-ch-play.png" alt="" style="width: 150px; height: 100px;">
+    </div>
+    </div>
+  </div>
+</div>
+
+<script src="./jsslide.js"></script>
+<script src="./jscountdown.js"></script>
+</body>
+<body class="body2">
+   
+</body>
+</html>

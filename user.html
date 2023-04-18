@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Log in </title>
+    <link rel="stylesheet" href="./user.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="cha">
+    <div class="header"> 
+        <div class="main-left">
+            <div class="space"></div>
+            <div class="logo">
+                <img src="./save-environment-speech.png" alt="" class="i1">
+            </div>
+   <div class="menu"  > <a href="./main.html"> MENU </a> </div> 
+            <div class="christmas-items" > <a href="./clothes.html"> ITEMS </a></div>
+            <div class="game" > <a href="./game.html">GAME</a>
+            </div>
+        </div>
+
+        <div class="main-right">
+
+            <div class="search-box">
+                <div class="box">
+                    <div class="container-1">
+                        <span class="icon"><i class="fa fa-search"></i></span>
+                        <input type="search" id="search" placeholder="Search..." />
+                    </div>
+                  </div>
+            </div>
+            <div class="user" href="./user.html">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="mar">
+                <i class="fa-solid fa-shop"></i>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <section>
+            <div class="img-bg">
+                <img src="./z4214860584754_c0feff144ff9c7ec5b35092097ed5443.jpg" alt="Hình Ảnh Minh Họa">
+            </div>
+            <!--Bắt Đầu Phần Nội Dung-->
+            <div class="noi-dung">
+                <div class="form">
+                    <h2> Create account </h2>
+                    <form action="">
+                        <div class="input-form">
+                            <span>Username</span>
+                            <input type="text" name="">
+                        </div>
+                        <div class="input-form">
+                            <span>Password</span>
+                            <input type="password" name="">
+                        </div>
+                        <div class="nho-dang-nhap">
+                            <label><input type="button" name=""> Create </label>
+                        </div>
+                        <div class="input-form">
+                            <input type="submit" value="Create account" id="btn">
+                        </div>
+                        <div class="input-form">
+                            <p> No account? <a href="#">Create</a></p>
+                        </div>
+                    </form>
+                    <h3>Log in using social platforms</h3>
+                    <ul class="icon-dang-nhap">
+                        <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-google" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <!--Kết Thúc Phần Nội Dung-->
+        </section>
+    </div>
+    </div>
+    <script language="javascript">
+        var button = document.getElementById("btn");
+        button.onclick = function(){
+            alert("You have created a new account");
+        }
+    </script>
